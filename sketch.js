@@ -48,7 +48,7 @@ function preload(){
   mainCyclist.scale=0.07;
 
   //set collider for mainCyclist
-  mainCyclist.debug = false
+  //mainCyclist.debug = false
   mainCyclist .setCollider("rectangle",0,0,100,200);
 
   gameOver = createSprite(650,150);
